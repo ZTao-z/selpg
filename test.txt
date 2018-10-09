@@ -1,0 +1,14 @@
+page 1
+aaa
+bbb
+ccc
+page 2
+ddd
+eee
+hhh
+this line is followed by \f
+page 3
+xxx
+yyy
+zzz
+
