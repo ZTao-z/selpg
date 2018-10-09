@@ -71,7 +71,7 @@ func getArgs() error {
             return file_err
         }
         input_file = flag.Args()[0]
-    } else {
+    } else if flag.NArg() > 1 {
         flag.Usage()
         err = errors.New("ERROR: too many args")
     }
