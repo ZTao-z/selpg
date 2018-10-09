@@ -1,7 +1,7 @@
 package main
 
 import (
-	flag "github.com/spf13/pflag"
+    flag "github.com/spf13/pflag"
     "bufio"
     "errors"
     "fmt"
