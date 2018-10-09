@@ -57,6 +57,12 @@ func getArgs() error {
         return err
     }
 
+    if s < 1 || e < 1 || s > 0x7fffffff || e > 0x7fffffff {
+        err = errors.New("ERROR: pages should between 1 and 2147483647")
+        flag.Usage()
+        return err
+    }
+
     if s > e {
         err = errors.New("ERROR: start page should less than end page")
         flag.Usage()
