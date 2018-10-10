@@ -127,3 +127,6 @@ if err == nil {
 
 # surface_test.go
 
+这部分使用了[StackOverflow](https://stackoverflow.com/questions/28024884/does-a-type-assertion-type-switch-have-bad-performance-is-slow-in-go)上的测试案例。
+
+由于GItHub显示图片有问题。因此我将该样例在本地测试的结果和结果说明写在了CSDN博客上，可以在[这里](https://blog.csdn.net/think_A_lot/article/details/83003964)查看
